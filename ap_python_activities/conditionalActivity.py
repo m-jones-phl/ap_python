@@ -12,7 +12,7 @@
 
 
 # 3. write a simple conditional state using a comparision operator(greater than, less than, etc. )
-a = 33
+"a = 33"
 b = 200
 if b > a:
   print("b is greater than a")
