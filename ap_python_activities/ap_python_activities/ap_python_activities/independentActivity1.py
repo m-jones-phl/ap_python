@@ -43,5 +43,6 @@ print(number_list[[1]])
 
 # HINT - for this function you will need to use the append() function. 
 
-shopping_cart = ['notebook', 'pens','tape','mousepad']
-shopping_cart.append('bookbag')
+shopping_cart = ['candy', 'pens','whiteout','mousepad']
+candy_price= 1.00
+pens_price= 2.00
