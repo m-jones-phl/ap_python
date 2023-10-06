@@ -1,4 +1,3 @@
-
 # PYTHON QUIZ # 2
 
 # This is an open book test. You may use the internet to assist with your answers- NO PHONES ALLOWED!
@@ -23,19 +22,37 @@
 
 # hint you will need to look into using conditional statements
 
+def location(user_destination):
+ user_destination == input('Where you at')
+
+
+
+
 # 4. Write a simple conditional statement that uses a boolean that will print if it is daytime or nighttime.
+ 
+def time(day):
+  if day == 'true':
+   print('It is morning time')
+  else:
+   print('It is bed time')
+
+time()
 
 # 5. What function would you use if you wanted to add and element/ value to a list data type? Explain why you would use it.
-
+' append method.'
 # 6. Do some research and find the correct built-in python function that will reverse the order of the following list.
 # then print your list in the reverse order.
 
 random_number_list = [0,1,2,3,4,5,6,7,8]
 
+random_number_list.reverse()
+print(random_number_list)
 # 7.Do some research and find the correcrt built-in python function that will allow you to find the largest number in the following list.
 # then print the largest number
-ranom_number_list2 = [100,230,40,39403,19]
-
+ranom_number_list2 = [99,2,0,9]
+a = (99,2,0,9)
+x = max(a)
+print(x)
 # 8. A security company has hired you as an engineer to help them develop a program that will only let users into the building 
 # if they enter a specific password. They given you the following information to use to build this program.
 # - they want users to be able to enter a series of codes to get access
@@ -44,11 +61,21 @@ ranom_number_list2 = [100,230,40,39403,19]
 # - if this is correct they will get access to the building
 # - if they have the wrong answer in either scenario they will get a message saying access denied. 
 
+
+
+
+#building_code()
+
 # 9. What does it mean to call a function? Why do we call functions. 
 # you can use the variable below to enter you ansewer. 
-answer9='your answer here'
+
+answer9= 'We are basically telling the program to execute the function. If we dont call it then it won't run'
 
 # 10. Find and print each value at the specific indexes provided in the list.
 # find and print the values/words at index 3, 4, and 6 
 
-shopping_cart = ['apples','water','chicken','ice cream','ground beef','string beans','oranges']
+shopping_cart = ['toothbrush','sand','dip','onions','chicken','grapes']
+ 
+print(shopping_cart)
+
+
