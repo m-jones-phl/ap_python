@@ -1,0 +1,214 @@
+#  MID TERM QUIZ 
+
+
+# RULES
+
+# I. You may use google/ W3 schools to assist you with this exam
+
+# II. You may use notes in your reposiory
+
+# III. You may not use any additional computing devices 
+# (only one computer should be out).
+
+# IV. You may not use your phone during the quiz under any circumstances.
+# If it is an emergency please request to be excused from the class. 
+
+# V. You may not have music or videos playing during the quiz
+# under any circumstances. 
+
+# VI. You may not use any LLM / AI applications under any circumstances. 
+# Any one caught using  these applications will automatically fail the quiz.
+
+# _____________________________________________________________________
+
+
+# Take your time, read the questions thoroughly, look for context clues
+
+# GOOD LUCK
+
+# _____________________________________________________________________
+
+
+
+# 1. Describe what a computer program is and what does it do. 
+
+# A computer program is a operation made by the user for the computer to run.
+
+# 2. Describe what complexitity and abstraction are, then provide an example
+# of complexity in the real world and how we apply abstraction to that thing (you example must be original and cannot be an example
+# used in our lecture slides ie car, grocery store, etc.). 
+
+# complexitity are complex problem that take a lot of time and energy to perform.
+#example solving a rubic cube
+
+# abstraction: The process of removing a piece of something in order to reduce it to a certain performance level.
+# example: fixing your car
+
+# A complexitity problem is trying to organize your house, and abstraction can help on with to keep and 
+# throw away.
+  
+# 3. What is Syntax in Python and why is it important to write proper syntax?
+
+# The syntax in python is a programming language that is a set of rules that defines how a python program
+# is written and perceived
+
+# 4. What is a function, and why do we wrap our code inside of functions?
+
+#A function is a block of code,  we wrap it in code to give it instructions so it can perform it task.
+
+# 5. Name and describe the three  (3) naming conventions for variables in python? Then provide three (3) name rules for Python
+# variables. 
+
+# Blade, Fire, Dragon, These are three variable names that follow the rules of no number, 
+# no symbols start the name variable , and variable are case senstive
+
+
+# 6. What will be the output of the print functons when this code is ran, explain why
+name = 'Bill
+student = name
+name = 'Walter'
+student= 'Richard'
+
+print(name)
+print(student)
+
+'Nothing happen but errors because Bill isnt put in a proper string one of the "" is gone so it wont run'
+
+# 7. Describe the difference between each of the following name assignment operators:
+
+# =- used to assign a value to a variable 
+# == - used to compare vaules or equailty two values 
+# != - used to show if it not equal to the operator
+ 
+
+# 8. What type of data can be stored in a python list?
+
+# the data is usually int, float
+
+# 9. Create a function that will take in a word provided by a user and then output that word back to the user but in reverse. 
+
+Fire = "Exsposion inter blade"[::-1]
+print(Fire)
+
+# 10. Create three (3) seperate functions that will do addition, subtraction, and multiplication respectively. 
+# each of these functions should take two (2) arguments. When the user passes these arguments into the function, they will be
+# calculated together and return the output in your terminal.
+ 
+x = input('Put in a number')
+y = input('Put in another number')
+print(x+y)  
+
+a = input('Put in a number')
+z = input('Put in another number')
+print(a-z)
+
+h = input('Put in a number')
+q = input('Put in another number')
+print(h*y)
+
+# 11. What is the difference between a function argument and a function parameter. 
+
+# A function argument, is an argument passing throw some code, a parameter are names listed in a function
+# defintion.
+
+# 12. You have been hired by a software company and your first assignment is to develop a password authenticator program. 
+# the goal of your program is to check a user's password and make sure it meets the company's password requirements. 
+# the company has provided you with the following requirements for the passcode program:
+# a. the passcode must NOT contain any numbers
+# b. the passcode must NOT contain any capital letters
+# c. the passcode can NOT be any longer than five (5) characters
+# d. the passcode can NOT shorter the three (3) characters
+# e. the user should be able to enter their password and if it meets the requirements, should print a message saying that 
+# their password was created successfully, and if it was not, should send back a message with one of the following issues. 
+
+def store():
+    code = input('What is the password')
+    if code == 'plane':
+        print(' their password was created successfully')
+    else:
+        print('Wrong pass word')
+store()    
+
+# 13. When you run your code and see typeError in your terminal, what does that typically mean and how would you try to solve
+# the issue?
+
+# TypeError on your terminal means that the way you wrote your code is not right, or there a problems.
+# The way to fix said problem is to check the terminal and say which line is causing the problem, the 
+# terminal will usually tell you.
+
+# 14. When you run your code and see indentError in your terminal, what does that typically mean and how would you try to solve 
+# the issue?
+
+# IndentError in your terminal mean the you forgot to tab something on your code, fixin just have to see 
+# which line the terminal tells you it happen and fix it.
+
+# 15. Create a while loop that check a user's password. If they enter the password correct, they will get a message saying 
+# that the password was entered successfully. If they enter the password incorrectly, it will tell the user to try again. 
+# The user should only have three (3) attempts to get the password correct. If they enter the password incorrect on the fourth 
+# attempt, a message should appear telling them that have been locked out and need to talk to the administrator. 
+
+def secert():
+    past =('What is the password') 
+    if past == 'PLanet':
+        print('succesfully')
+l = 1
+while l < 4:
+  print(l)
+  l += 1
+else:
+        print('Incorrect, try around')
+
+secert()
+
+# 16. Which item is at index 5
+giftShopping=['xbox','sneakers','necklace','clothing','laptop','gift card']
+
+# Gift card is five
+
+# 17. Create a for loop that will print ONLY the even numbers within the range of the variable provided below.
+# HINT: You will need to use the range() function. 
+upToNumber = 30
+
+upToNumver = range(30)
+for b in upToNumver:
+  print(b)
+
+
+# 18. Create a function that uses a conditional statement that checks if a person qualifies for a raise on their salary. 
+# The user should be able to enter their name, their salary (how much money they make in an entire year), and how long they have
+# worked at the company. If the user has been working at the company longer than four (4) years, they will get a 15% raise. 
+# Your program should be able to calculate what their salary is with the 15% increase. If the user qualifies, your program
+# should return the a message congratulating the user by name, and telling them what their new salary is with the 15%
+# increase (this must be the actual number). If they do not qualify inform the user that unfortunately they do not qualify. 
+
+def work():
+    name =('What is your name?')
+    salary =('how much money do you make a year?')
+    company =('how long have you been a in the company')
+    if salary == + 4:
+        print = salary*15
+    elif == - 4: print('No salary increase')
+
+work()
+
+# 19. Create a function that checks which value is greater than the other. Your function should take two (2) integer parameters. 
+# and should evaluate which number is larger. Your function should then print the largest number. 
+
+Great = input('Put in a number')
+good = input('put a number')
+print(max(Great, good))
+# 20. Create a while loop function that will add gift items to a list. Your function should ask the user to enter an item name. 
+# The item name should then be added to a list variable called gift_bag. Your gift bag should have a limit of six (6) items. 
+# Once your gift bag hits its limit of six (6) items your program should print a message saying 
+# that the gift bag is full and print the list of items in the gift bag.   
+ 
+def births()
+birth = ['cake', 'pizza', 'cards']
+while birth < 4:
+  print(birth)
+  birth += 1
+more = input(birth, 'would you like anythin more?')
+
+
+
+ 
