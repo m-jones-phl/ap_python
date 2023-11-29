@@ -1,0 +1,48 @@
+def start_game():
+    print("Welcome to the Text Adventure Game!")
+    # Start the game logic here
+    # Present options and scenarios to the user
+    # Based on user input, navigate through the story
+
+
+# Start the game when the script runs
+if __name__ == "__main__":
+    start_game()
+def start_game():
+    print("Welcome to the Text Adventure Game!")
+    print("You wake up in a mysterious forest. What do you do?")
+    print("a. Explore the surroundings")
+    print("b. Look for a path")
+    print("c. Climb a tree to get a better view")
+
+    choice = input("Enter your choice: ").lower()
+
+    if choice == 'a':
+        explore_forest()
+    elif choice == 'b':
+        find_path()
+    elif choice == 'c':
+        climb_tree()
+    else:
+        print("Invalid choice. Please try again.")
+        start_game()
+
+
+def explore_forest():
+    print("\nYou decide to explore the forest.")
+    # Add more story and choices based on this path
+
+
+def find_path():
+    print("\nYou try to find a path.")
+    # Add more story and choices based on this path
+
+
+def climb_tree():
+    print("\nYou climb a tree to get a better view.")
+    # Add more story and choices based on this path
+
+
+# Start the game when the script runs
+if __name__ == "__main__":
+    start_game()
